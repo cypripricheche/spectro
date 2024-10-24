@@ -282,8 +282,12 @@ header {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        height: 200px; /* Adjust height for smaller screens */
+        height: 200px; /* Ajuste la hauteur pour les petits écrans */
         margin-bottom: 1.5rem;
+    }
+
+    .teamContainer:first-child {
+        margin-top: 4rem; /* Ajoute un espace au-dessus de la première image */
     }
 
     .teamContainer:last-child {
@@ -291,6 +295,7 @@ header {
         margin-right: auto;
     }
 }
+
 
 /* ============================================================================================================================
  * MAIN CONTENT SECTION - DISCORD
